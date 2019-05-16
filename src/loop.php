@@ -27,8 +27,9 @@ $array = [
     ["tv-show" => "You" , "rating" => 4],
     ["tv-show" => "Black Panter" , "rating" => 3]
 ];
-
+echo "<h2>Top TV Shows :</h2>"
 ?>
+
 <table>
 <?php foreach($array as $arr): ?>
 
