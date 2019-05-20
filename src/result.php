@@ -1,3 +1,6 @@
+<?php
+echo ' 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +10,9 @@
     <title>Document</title>
 </head>
 <body>
+
+';
+?>
 
  <?php 
  if(isset($_POST['submit'])){
@@ -38,13 +44,15 @@
     echo "<p>$movie4</p>";
     echo "<p>$movie5</p>";
 
-    echo readfile("setup.php");
  }
  
 ?>
 
 
-<!-- Your email address is: <?php echo $_POST["email"]; ?> -->
 
+<?php
+echo ' 
 </body>
 </html>
+';
+?>
