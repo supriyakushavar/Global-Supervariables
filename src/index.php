@@ -1,6 +1,9 @@
 <?php
-echo ' 
 
+?>
+
+<?php
+echo ' 
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,14 +20,13 @@ echo '
 
 <?php 
 echo '
-<h2>Select the Emoji to play</h2>
+<h2>Select the Emoji to play !!</h2>
 <form action="lottery.php" method="post">';
 
 
 echo "<input type='checkbox' name='emoji' value='You Lost' class='emoji' >\u{1F355}</input>";
 echo "<input type='checkbox' name='emoji' value='You Won' class='emoji'>\u{1F354}</input>";
 echo "<input type='checkbox' name='emoji' value='You Lost' class='emoji'>\u{1F35F}</input>";
-
 
 echo '<br><input type="submit" name="submit" />
 </form>';
